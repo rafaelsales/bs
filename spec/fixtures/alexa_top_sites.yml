@@ -1,0 +1,50 @@
+ggoogle:
+  url: google.com
+  rank: 1
+  page_views_per_million: 80038
+  page_views_per_user: 15.29
+gfacebook:
+  url: facebook.com
+  rank: 2
+  page_views_per_million: 67813
+  page_views_per_user: 15.24
+gyoutube:
+  url: youtube.com
+  rank: 3
+  page_views_per_million: 32938
+  page_views_per_user: 8.83
+gbaidu:
+  url: baidu.com
+  rank: 4
+  page_views_per_million: 13572
+  page_views_per_user: 8.68
+gyahoo:
+  url: yahoo.com
+  rank: 5
+  page_views_per_million: 10999
+  page_views_per_user: 7.06
+gamazon:
+  url: amazon.com
+  rank: 6
+  page_views_per_million: 12615
+  page_views_per_user: 11.76
+gwikipedia:
+  url: wikipedia.org
+  rank: 7
+  page_views_per_million: 4829
+  page_views_per_user: 3.54
+gqq:
+  url: qq.com
+  rank: 8
+  page_views_per_million: 4029
+  page_views_per_user: 4.23
+gtaobao:
+  url: taobao.com
+  rank: 9
+  page_views_per_million: 6964
+  page_views_per_user: 8.97
+gtwitter:
+  url: twitter.com
+  rank: 10
+  page_views_per_million: 4485
+  page_views_per_user: 5.14
