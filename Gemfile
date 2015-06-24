@@ -5,6 +5,7 @@ gem 'active_model_serializers', '~> 0.10.0.rc2'
 gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
 gem 'coffee-rails', '~> 4.1.0'
+gem 'ralexa'
 
 group :test, :development do
   gem 'byebug'
@@ -18,4 +19,6 @@ group :test do
   gem 'shoulda-matchers'
   gem 'bdd', require: false
   gem 'json-schema'
+  gem 'vcr'
+  gem 'webmock'
 end

@@ -1,0 +1,333 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://ats.amazonaws.com/?AWSAccessKeyId=AKIAJNB5ZZJJ6XSH2XAQ&Action=TopSites&Count=5&ResponseGroup=Country&Signature=0w1FvirKVYVkFWsoP/sT1seRxqfc1ry0FLQNgZ5tQR0=&SignatureMethod=HmacSHA256&SignatureVersion=2&Start=1&Timestamp=2015-06-24T16:54:48.000Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Wed, 24 Jun 2015 16:54:49 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?>\n<aws:TopSitesResponse xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:Response
+        xmlns:aws=\"http://ats.amazonaws.com/doc/2005-11-21\"><aws:OperationRequest><aws:RequestId>770b6c1d-419f-aad7-4ffc-3069cd1167bb</aws:RequestId></aws:OperationRequest><aws:TopSitesResult><aws:Alexa>\n
+        \ \n  <aws:TopSites>\n    <aws:Country>\n      <aws:CountryName>GLOBAL</aws:CountryName>\n
+        \     <aws:CountryCode>*</aws:CountryCode>\n      <aws:TotalSites>383201</aws:TotalSites>\n
+        \     <aws:Sites>\n        <aws:Site>\n          <aws:DataUrl>google.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>1</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>458700</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>80038</aws:PerMillion>\n
+        \             <aws:PerUser>15.29</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>1</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>facebook.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>2</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>390000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>67813</aws:PerMillion>\n
+        \             <aws:PerUser>15.24</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>2</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>youtube.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>3</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>327100</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>32938</aws:PerMillion>\n
+        \             <aws:PerUser>8.83</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>3</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>baidu.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>4</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>137000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>13572</aws:PerMillion>\n
+        \             <aws:PerUser>8.68</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>4</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>yahoo.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>5</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>136590</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>10999</aws:PerMillion>\n
+        \             <aws:PerUser>7.06</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>5</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n      </aws:Sites>\n    </aws:Country>\n
+        \ </aws:TopSites>\n</aws:Alexa></aws:TopSitesResult><aws:ResponseStatus xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:StatusCode>Success</aws:StatusCode></aws:ResponseStatus></aws:Response></aws:TopSitesResponse>"
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 16:54:49 GMT
+- request:
+    method: get
+    uri: http://ats.amazonaws.com/?AWSAccessKeyId=AKIAJNB5ZZJJ6XSH2XAQ&Action=TopSites&Count=5&ResponseGroup=Country&Signature=1MNdxRKLlD0lk8tkJFSgcoWbeq02%2BEVp5V3LPNGQbUo=&SignatureMethod=HmacSHA256&SignatureVersion=2&Start=1&Timestamp=2015-06-24T16:56:03.000Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Wed, 24 Jun 2015 16:56:04 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?>\n<aws:TopSitesResponse xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:Response
+        xmlns:aws=\"http://ats.amazonaws.com/doc/2005-11-21\"><aws:OperationRequest><aws:RequestId>6f920b45-8277-3ee9-4914-b90bc3893a29</aws:RequestId></aws:OperationRequest><aws:TopSitesResult><aws:Alexa>\n
+        \ \n  <aws:TopSites>\n    <aws:Country>\n      <aws:CountryName>GLOBAL</aws:CountryName>\n
+        \     <aws:CountryCode>*</aws:CountryCode>\n      <aws:TotalSites>383201</aws:TotalSites>\n
+        \     <aws:Sites>\n        <aws:Site>\n          <aws:DataUrl>google.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>1</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>458700</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>80038</aws:PerMillion>\n
+        \             <aws:PerUser>15.29</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>1</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>facebook.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>2</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>390000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>67813</aws:PerMillion>\n
+        \             <aws:PerUser>15.24</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>2</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>youtube.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>3</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>327100</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>32938</aws:PerMillion>\n
+        \             <aws:PerUser>8.83</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>3</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>baidu.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>4</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>137000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>13572</aws:PerMillion>\n
+        \             <aws:PerUser>8.68</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>4</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>yahoo.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>5</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>136590</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>10999</aws:PerMillion>\n
+        \             <aws:PerUser>7.06</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>5</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n      </aws:Sites>\n    </aws:Country>\n
+        \ </aws:TopSites>\n</aws:Alexa></aws:TopSitesResult><aws:ResponseStatus xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:StatusCode>Success</aws:StatusCode></aws:ResponseStatus></aws:Response></aws:TopSitesResponse>"
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 16:56:04 GMT
+- request:
+    method: get
+    uri: http://ats.amazonaws.com/?AWSAccessKeyId=AKIAJNB5ZZJJ6XSH2XAQ&Action=TopSites&Count=5&ResponseGroup=Country&Signature=UmXzzCTnZC4EXGwZUHiraxe9bSLMQioqlayTeejOko8=&SignatureMethod=HmacSHA256&SignatureVersion=2&Start=1&Timestamp=2015-06-24T16:57:09.000Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Wed, 24 Jun 2015 16:57:09 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?>\n<aws:TopSitesResponse xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:Response
+        xmlns:aws=\"http://ats.amazonaws.com/doc/2005-11-21\"><aws:OperationRequest><aws:RequestId>bcb2fe71-1576-c74e-0b7d-d2ce1acb7d77</aws:RequestId></aws:OperationRequest><aws:TopSitesResult><aws:Alexa>\n
+        \ \n  <aws:TopSites>\n    <aws:Country>\n      <aws:CountryName>GLOBAL</aws:CountryName>\n
+        \     <aws:CountryCode>*</aws:CountryCode>\n      <aws:TotalSites>383201</aws:TotalSites>\n
+        \     <aws:Sites>\n        <aws:Site>\n          <aws:DataUrl>google.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>1</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>458700</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>80038</aws:PerMillion>\n
+        \             <aws:PerUser>15.29</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>1</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>facebook.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>2</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>390000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>67813</aws:PerMillion>\n
+        \             <aws:PerUser>15.24</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>2</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>youtube.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>3</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>327100</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>32938</aws:PerMillion>\n
+        \             <aws:PerUser>8.83</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>3</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>baidu.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>4</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>137000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>13572</aws:PerMillion>\n
+        \             <aws:PerUser>8.68</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>4</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>yahoo.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>5</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>136590</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>10999</aws:PerMillion>\n
+        \             <aws:PerUser>7.06</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>5</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n      </aws:Sites>\n    </aws:Country>\n
+        \ </aws:TopSites>\n</aws:Alexa></aws:TopSitesResult><aws:ResponseStatus xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:StatusCode>Success</aws:StatusCode></aws:ResponseStatus></aws:Response></aws:TopSitesResponse>"
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 16:57:10 GMT
+- request:
+    method: get
+    uri: http://ats.amazonaws.com/?AWSAccessKeyId=AKIAJNB5ZZJJ6XSH2XAQ&Action=TopSites&Count=5&ResponseGroup=Country&Signature=88a7xmIAApedvtIsx2dSwYuRYrYd/x/EU12QO6JX6cU=&SignatureMethod=HmacSHA256&SignatureVersion=2&Start=1&Timestamp=2015-06-24T16:57:36.000Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Wed, 24 Jun 2015 16:57:36 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?>\n<aws:TopSitesResponse xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:Response
+        xmlns:aws=\"http://ats.amazonaws.com/doc/2005-11-21\"><aws:OperationRequest><aws:RequestId>cf4c9d52-65f8-9512-0f8d-4d97111a0f02</aws:RequestId></aws:OperationRequest><aws:TopSitesResult><aws:Alexa>\n
+        \ \n  <aws:TopSites>\n    <aws:Country>\n      <aws:CountryName>GLOBAL</aws:CountryName>\n
+        \     <aws:CountryCode>*</aws:CountryCode>\n      <aws:TotalSites>383201</aws:TotalSites>\n
+        \     <aws:Sites>\n        <aws:Site>\n          <aws:DataUrl>google.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>1</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>458700</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>80038</aws:PerMillion>\n
+        \             <aws:PerUser>15.29</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>1</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>facebook.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>2</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>390000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>67813</aws:PerMillion>\n
+        \             <aws:PerUser>15.24</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>2</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>youtube.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>3</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>327100</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>32938</aws:PerMillion>\n
+        \             <aws:PerUser>8.83</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>3</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>baidu.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>4</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>137000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>13572</aws:PerMillion>\n
+        \             <aws:PerUser>8.68</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>4</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>yahoo.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>5</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>136590</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>10999</aws:PerMillion>\n
+        \             <aws:PerUser>7.06</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>5</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n      </aws:Sites>\n    </aws:Country>\n
+        \ </aws:TopSites>\n</aws:Alexa></aws:TopSitesResult><aws:ResponseStatus xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:StatusCode>Success</aws:StatusCode></aws:ResponseStatus></aws:Response></aws:TopSitesResponse>"
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 16:57:36 GMT
+- request:
+    method: get
+    uri: http://ats.amazonaws.com/?AWSAccessKeyId=AKIAJNB5ZZJJ6XSH2XAQ&Action=TopSites&Count=5&ResponseGroup=Country&Signature=SjuX0TRXQMMPeW9vPQ%2BJX/g/H4LeRxGuxFZ5vnqR6OQ=&SignatureMethod=HmacSHA256&SignatureVersion=2&Start=1&Timestamp=2015-06-24T16:58:40.000Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache-Coyote/1.1
+      Content-Type:
+      - text/xml
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Wed, 24 Jun 2015 16:58:40 GMT
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?>\n<aws:TopSitesResponse xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:Response
+        xmlns:aws=\"http://ats.amazonaws.com/doc/2005-11-21\"><aws:OperationRequest><aws:RequestId>0aa6d2ca-e7af-0855-2709-d473688d6846</aws:RequestId></aws:OperationRequest><aws:TopSitesResult><aws:Alexa>\n
+        \ \n  <aws:TopSites>\n    <aws:Country>\n      <aws:CountryName>GLOBAL</aws:CountryName>\n
+        \     <aws:CountryCode>*</aws:CountryCode>\n      <aws:TotalSites>383201</aws:TotalSites>\n
+        \     <aws:Sites>\n        <aws:Site>\n          <aws:DataUrl>google.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>1</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>458700</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>80038</aws:PerMillion>\n
+        \             <aws:PerUser>15.29</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>1</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>facebook.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>2</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>390000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>67813</aws:PerMillion>\n
+        \             <aws:PerUser>15.24</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>2</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>youtube.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>3</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>327100</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>32938</aws:PerMillion>\n
+        \             <aws:PerUser>8.83</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>3</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>baidu.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>4</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>137000</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>13572</aws:PerMillion>\n
+        \             <aws:PerUser>8.68</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>4</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n        <aws:Site>\n          <aws:DataUrl>yahoo.com</aws:DataUrl>\n
+        \         <aws:Country>\n            <aws:Rank>5</aws:Rank>\n            <aws:Reach>\n
+        \             <aws:PerMillion>136590</aws:PerMillion>\n            </aws:Reach>\n
+        \           <aws:PageViews>\n              <aws:PerMillion>10999</aws:PerMillion>\n
+        \             <aws:PerUser>7.06</aws:PerUser>\n            </aws:PageViews>\n
+        \         </aws:Country>\n          <aws:Global>\n            <aws:Rank>5</aws:Rank>\n
+        \         </aws:Global>\n        </aws:Site>\n      </aws:Sites>\n    </aws:Country>\n
+        \ </aws:TopSites>\n</aws:Alexa></aws:TopSitesResult><aws:ResponseStatus xmlns:aws=\"http://alexa.amazonaws.com/doc/2005-10-05/\"><aws:StatusCode>Success</aws:StatusCode></aws:ResponseStatus></aws:Response></aws:TopSitesResponse>"
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 16:58:40 GMT
+recorded_with: VCR 2.9.3
