@@ -1,0 +1,9 @@
+global: &global
+  access_key_id: AKIAJCM4HQNK6RVNLEGQ
+  secret_access_key: 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
+
+development:
+  <<: *global
+
+test:
+  <<: *global
