@@ -11,6 +11,9 @@ gem 'ralexa'
 gem 'jquery-datatables-rails', '~> 3.3.0'
 gem 'haml'
 gem 'simple_form'
+gem 'webshot'
+gem 'carrierwave'
+gem 'screencap'
 
 group :test, :development do
   gem 'byebug'

@@ -4,6 +4,10 @@
   %td= top_site.page_views_per_million
   %td= top_site.page_views_per_user
   %td
-    = link_to 'Edit', edit_alexa_top_site_path(top_site), remote: true, 'data-type' => 'text',
+    = link_to edit_alexa_top_site_path(top_site), remote: true, 'data-type' => 'text', title: 'Edit',
               'data-update-target' => '#alexa-top-site-modal .modal-content',
-              'data-target' => '#alexa-top-site-modal', 'data-toggle' => 'modal'
+              'data-target' => '#alexa-top-site-modal', 'data-toggle' => 'modal' do
+      %span.glyphicon.glyphicon-edit{ 'aria-hidden' => 'true' }
+    &nbsp;
+    %span.glyphicon.glyphicon-eye-open{ 'aria-hidden' => 'true','data-toggle' => 'popover', 'data-trigger' => 'hover',
+                                        'data-placement' => 'left', 'data-screenshot-url' => top_site.screenshot_url }
