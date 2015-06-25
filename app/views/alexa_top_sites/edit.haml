@@ -1,0 +1,5 @@
+.modal-header
+  %button{ type: 'button', class: 'close', 'data-dismiss' => 'modal', 'aria-label' => 'Close' }
+    %span{ 'aria-hidden' => 'true' } &times;
+  %h3= "Editing #{@alexa_top_site.url}"
+= render 'form'

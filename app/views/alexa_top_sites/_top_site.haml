@@ -3,4 +3,7 @@
   %td= top_site.url
   %td= top_site.page_views_per_million
   %td= top_site.page_views_per_user
-  %td= link_to 'Edit', '#', id: 'edit-top-site'
+  %td
+    = link_to 'Edit', edit_alexa_top_site_path(top_site), remote: true, 'data-type' => 'text',
+              'data-update-target' => '#alexa-top-site-modal .modal-content',
+              'data-target' => '#alexa-top-site-modal', 'data-toggle' => 'modal'

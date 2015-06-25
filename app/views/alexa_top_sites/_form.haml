@@ -1,0 +1,13 @@
+.modal-body
+  = simple_form_for @alexa_top_site, remote: true, html: { style: 'display:inline;',
+    'data-update-target' => '#alexa-top-site-modal .modal-content', 'data-type' => 'text' } do |f|
+    - flash.each do |key, value|
+      .alert{ class: "alert-#{key}", role: 'alert' }= value
+
+    = f.input :rank, disabled: true
+    = f.input :url
+    = f.input :page_views_per_million
+    = f.input :page_views_per_user
+
+    = f.submit 'Save', class: 'btn btn-primary'
+    = link_to 'Cancel', '#', class: 'btn', data: { dismiss: 'modal' }

@@ -14,6 +14,11 @@ Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
+Capybara.configure do |config|
+  config.default_wait_time = 15
+  config.javascript_driver = :webkit
+end
+
 RSpec.configure do |config|
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
   config.use_transactional_fixtures = false
@@ -29,5 +34,7 @@ RSpec.configure do |config|
       example.run
     end
   end
+
+  config.include SpecHelpers::WaitForAjax, type: :feature
 end
 
