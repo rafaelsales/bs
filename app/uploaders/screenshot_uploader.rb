@@ -14,4 +14,8 @@ class ScreenshotUploader < CarrierWave::Uploader::Base
   def filename
     "#{model.url}.png"
   end
+
+  def cache_dir
+    "#{Rails.root}/tmp/uploads"
+  end
 end

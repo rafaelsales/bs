@@ -118,6 +118,7 @@ GEM
     multi_json (1.11.1)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    pg (0.18.1)
     phantomjs (1.9.8.0)
     poltergeist (1.5.1)
       capybara (~> 2.1)
@@ -146,6 +147,11 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.2)
       loofah (~> 2.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.4)
+    rails_stdout_logging (0.0.3)
     railties (4.2.2)
       actionpack (= 4.2.2)
       activesupport (= 4.2.2)
@@ -201,6 +207,9 @@ GEM
     tilt (1.4.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uglifier (2.7.1)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     vcr (2.9.3)
     web-console (2.1.3)
       activemodel (>= 4.0)
@@ -238,7 +247,9 @@ DEPENDENCIES
   jquery-datatables-rails (~> 3.3.0)
   jquery-rails
   json-schema
+  pg
   rails (= 4.2.2)
+  rails_12factor
   ralexa
   rspec-rails
   sass-rails (~> 5.0)
@@ -247,6 +258,7 @@ DEPENDENCIES
   simple_form
   spring
   sqlite3
+  uglifier
   vcr
   web-console (~> 2.0)
   webmock

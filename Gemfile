@@ -1,8 +1,8 @@
+ruby "2.2.2"
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.2'
 gem 'active_model_serializers', '~> 0.10.0.rc2'
-gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
 gem 'jquery-rails'
 gem 'bootstrap-sass'
@@ -14,8 +14,11 @@ gem 'simple_form'
 gem 'webshot'
 gem 'carrierwave'
 gem 'screencap'
+gem 'pg'
+gem 'uglifier'
 
 group :test, :development do
+  gem 'sqlite3'
   gem 'byebug'
   gem 'rspec-rails'
   gem 'web-console', '~> 2.0'
@@ -32,3 +35,5 @@ group :test do
   gem 'capybara-webkit'
   gem 'database_cleaner'
 end
+
+gem 'rails_12factor', group: :production
