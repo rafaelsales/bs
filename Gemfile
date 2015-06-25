@@ -10,6 +10,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'ralexa'
 gem 'jquery-datatables-rails', '~> 3.3.0'
 gem 'haml'
+gem 'simple_form'
 
 group :test, :development do
   gem 'byebug'
