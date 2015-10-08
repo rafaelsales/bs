@@ -9,12 +9,10 @@ class AlexaImporter
   end
 
   def store_screenshot_for(top_site)
-    begin
-      file = take_screenshot_for(top_site)
-      top_site.update!(screenshot: file)
-    ensure
-      FileUtils.rm(file) if file.try(:exists?)
-    end
+    file = take_screenshot_for(top_site)
+    top_site.update!(screenshot: file)
+  ensure
+    FileUtils.rm(file) if file.try(:exists?)
   end
 
   private
@@ -25,7 +23,7 @@ class AlexaImporter
 
   def take_screenshot_for(top_site)
     Screencap::Fetcher.new(URI::HTTP.build(host: top_site.url).to_s).fetch(
-      output: Rails.root.join("tmp", "#{top_site.url}.png"),
+      output: Rails.root.join('tmp', "#{top_site.url}.png"),
       width: 640,
       height: 480
     )
