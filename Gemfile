@@ -1,7 +1,7 @@
-ruby "2.2.2"
+ruby "2.2.3"
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.2'
+gem 'rails', '4.2.4'
 gem 'active_model_serializers', '~> 0.10.0.rc2'
 gem 'sass-rails', '~> 5.0'
 gem 'jquery-rails'
