@@ -11,17 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20_150_625_095_703) do
-  create_table 'alexa_top_sites', force: :cascade do |t|
-    t.string 'url', null: false
-    t.integer 'rank', null: false
-    t.integer 'page_views_per_million'
-    t.decimal 'page_views_per_user', precision: 6, scale: 2
-    t.datetime 'created_at'
-    t.datetime 'updated_at'
-    t.string 'screenshot'
+ActiveRecord::Schema.define(version: 20150625095703) do
+
+  create_table "alexa_top_sites", force: :cascade do |t|
+    t.string   "url",                                            null: false
+    t.integer  "rank",                                           null: false
+    t.integer  "page_views_per_million"
+    t.decimal  "page_views_per_user",    precision: 6, scale: 2
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "screenshot"
   end
 
-  add_index 'alexa_top_sites', ['rank'], name: 'index_alexa_top_sites_on_rank', unique: true
-  add_index 'alexa_top_sites', ['url'], name: 'index_alexa_top_sites_on_url', unique: true
+  add_index "alexa_top_sites", ["rank"], name: "index_alexa_top_sites_on_rank", unique: true
+  add_index "alexa_top_sites", ["url"], name: "index_alexa_top_sites_on_url", unique: true
+
 end
